@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB428B832C17D93300F2B781 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428B7F2C17D93300F2B781 /* LocationDetailView.swift */; };
+		EB428B842C17D93300F2B781 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428B802C17D93300F2B781 /* LocationMapAnnotationView.swift */; };
+		EB428B852C17D93300F2B781 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428B812C17D93300F2B781 /* LocationsListView.swift */; };
+		EB428B862C17D93300F2B781 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428B822C17D93300F2B781 /* LocationPreviewView.swift */; };
+		EB428B882C17D93F00F2B781 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428B872C17D93F00F2B781 /* LocationsViewModel.swift */; };
+		EB70E0152C1700D2004691FC /* HeatWavesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70E0142C1700D2004691FC /* HeatWavesApp.swift */; };
+		EB70E0172C1700D2004691FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70E0162C1700D2004691FC /* ContentView.swift */; };
+		EB70E01C2C1700D3004691FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70E01B2C1700D3004691FC /* Preview Assets.xcassets */; };
+		EB70E0262C1717A9004691FC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70E0252C1717A9004691FC /* Location.swift */; };
+		EB70E0292C171BEF004691FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70E0282C171BEF004691FC /* Assets.xcassets */; };
+		EB70E02B2C171E8B004691FC /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70E02A2C171E8B004691FC /* LocationsDataService.swift */; };
+		EB70E02D2C171F46004691FC /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70E02C2C171F46004691FC /* LocationsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB428B7F2C17D93300F2B781 /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDetailView.swift; path = "../../../SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationDetailView.swift"; sourceTree = "<group>"; };
+		EB428B802C17D93300F2B781 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationMapAnnotationView.swift; path = "../../../SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationMapAnnotationView.swift"; sourceTree = "<group>"; };
+		EB428B812C17D93300F2B781 /* LocationsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsListView.swift; path = "../../../SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationsListView.swift"; sourceTree = "<group>"; };
+		EB428B822C17D93300F2B781 /* LocationPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPreviewView.swift; path = "../../../SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationPreviewView.swift"; sourceTree = "<group>"; };
+		EB428B872C17D93F00F2B781 /* LocationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsViewModel.swift; path = "../../../SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/ViewModels/LocationsViewModel.swift"; sourceTree = "<group>"; };
+		EB70E0112C1700D2004691FC /* HeatWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB70E0142C1700D2004691FC /* HeatWavesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatWavesApp.swift; sourceTree = "<group>"; };
+		EB70E0162C1700D2004691FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB70E01B2C1700D3004691FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB70E0252C1717A9004691FC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EB70E0282C171BEF004691FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB70E02A2C171E8B004691FC /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		EB70E02C2C171F46004691FC /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB70E00E2C1700D2004691FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB70E0082C1700D2004691FC = {
+			isa = PBXGroup;
+			children = (
+				EB70E0132C1700D2004691FC /* HeatWaves */,
+				EB70E0122C1700D2004691FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB70E0122C1700D2004691FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E0112C1700D2004691FC /* HeatWaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB70E0132C1700D2004691FC /* HeatWaves */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E0142C1700D2004691FC /* HeatWavesApp.swift */,
+				EB70E0162C1700D2004691FC /* ContentView.swift */,
+				EB70E0272C171870004691FC /* DataServices */,
+				EB70E0242C171761004691FC /* Models */,
+				EB70E0232C171758004691FC /* ViewModels */,
+				EB70E0222C17174C004691FC /* Views */,
+				EB70E0282C171BEF004691FC /* Assets.xcassets */,
+				EB70E01A2C1700D3004691FC /* Preview Content */,
+			);
+			path = HeatWaves;
+			sourceTree = "<group>";
+		};
+		EB70E01A2C1700D3004691FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E01B2C1700D3004691FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB70E0222C17174C004691FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E02C2C171F46004691FC /* LocationsView.swift */,
+				EB428B7F2C17D93300F2B781 /* LocationDetailView.swift */,
+				EB428B802C17D93300F2B781 /* LocationMapAnnotationView.swift */,
+				EB428B822C17D93300F2B781 /* LocationPreviewView.swift */,
+				EB428B812C17D93300F2B781 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB70E0232C171758004691FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB428B872C17D93F00F2B781 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB70E0242C171761004691FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E0252C1717A9004691FC /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB70E0272C171870004691FC /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				EB70E02A2C171E8B004691FC /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB70E0102C1700D2004691FC /* HeatWaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB70E01F2C1700D3004691FC /* Build configuration list for PBXNativeTarget "HeatWaves" */;
+			buildPhases = (
+				EB70E00D2C1700D2004691FC /* Sources */,
+				EB70E00E2C1700D2004691FC /* Frameworks */,
+				EB70E00F2C1700D2004691FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatWaves;
+			productName = HeatWaves;
+			productReference = EB70E0112C1700D2004691FC /* HeatWaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB70E0092C1700D2004691FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EB70E0102C1700D2004691FC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = EB70E00C2C1700D2004691FC /* Build configuration list for PBXProject "HeatWaves" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB70E0082C1700D2004691FC;
+			productRefGroup = EB70E0122C1700D2004691FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB70E0102C1700D2004691FC /* HeatWaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB70E00F2C1700D2004691FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB70E0292C171BEF004691FC /* Assets.xcassets in Resources */,
+				EB70E01C2C1700D3004691FC /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB70E00D2C1700D2004691FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB70E02B2C171E8B004691FC /* LocationsDataService.swift in Sources */,
+				EB428B842C17D93300F2B781 /* LocationMapAnnotationView.swift in Sources */,
+				EB70E0172C1700D2004691FC /* ContentView.swift in Sources */,
+				EB428B832C17D93300F2B781 /* LocationDetailView.swift in Sources */,
+				EB428B862C17D93300F2B781 /* LocationPreviewView.swift in Sources */,
+				EB70E02D2C171F46004691FC /* LocationsView.swift in Sources */,
+				EB428B852C17D93300F2B781 /* LocationsListView.swift in Sources */,
+				EB70E0262C1717A9004691FC /* Location.swift in Sources */,
+				EB70E0152C1700D2004691FC /* HeatWavesApp.swift in Sources */,
+				EB428B882C17D93F00F2B781 /* LocationsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB70E01D2C1700D3004691FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB70E01E2C1700D3004691FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB70E0202C1700D3004691FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatWaves/Preview Content\"";
+				DEVELOPMENT_TEAM = XD579D749Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.HeatWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB70E0212C1700D3004691FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatWaves/Preview Content\"";
+				DEVELOPMENT_TEAM = XD579D749Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.HeatWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB70E00C2C1700D2004691FC /* Build configuration list for PBXProject "HeatWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB70E01D2C1700D3004691FC /* Debug */,
+				EB70E01E2C1700D3004691FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB70E01F2C1700D3004691FC /* Build configuration list for PBXNativeTarget "HeatWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB70E0202C1700D3004691FC /* Debug */,
+				EB70E0212C1700D3004691FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB70E0092C1700D2004691FC /* Project object */;
+}
